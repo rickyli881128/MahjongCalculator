@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2262A8381F53FAB600738331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A8371F53FAB600738331 /* main.m */; };
+		2262A83B1F53FAB600738331 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A83A1F53FAB600738331 /* AppDelegate.m */; };
+		2262A83E1F53FAB600738331 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A83D1F53FAB600738331 /* ViewController.m */; };
+		2262A8411F53FAB600738331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2262A83F1F53FAB600738331 /* Main.storyboard */; };
+		2262A8431F53FAB600738331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8421F53FAB600738331 /* Assets.xcassets */; };
+		2262A8461F53FAB600738331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8441F53FAB600738331 /* LaunchScreen.storyboard */; };
+		2262A8511F53FAB600738331 /* MahjongCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A8501F53FAB600738331 /* MahjongCalculatorTests.m */; };
+		2262A85C1F53FAB600738331 /* MahjongCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A85B1F53FAB600738331 /* MahjongCalculatorUITests.m */; };
+		2262A86B1F53FACD00738331 /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A86A1F53FACD00738331 /* Logic.m */; };
+		2262A8911F5419E500738331 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A86E1F5419E500738331 /* 1.png */; };
+		2262A8921F5419E500738331 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A86F1F5419E500738331 /* 11.png */; };
+		2262A8931F5419E500738331 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8701F5419E500738331 /* 12.png */; };
+		2262A8941F5419E500738331 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8711F5419E500738331 /* 13.png */; };
+		2262A8951F5419E500738331 /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8721F5419E500738331 /* 14.png */; };
+		2262A8961F5419E500738331 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8731F5419E500738331 /* 15.png */; };
+		2262A8971F5419E500738331 /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8741F5419E500738331 /* 16.png */; };
+		2262A8981F5419E500738331 /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8751F5419E500738331 /* 17.png */; };
+		2262A8991F5419E500738331 /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8761F5419E500738331 /* 18.png */; };
+		2262A89A1F5419E500738331 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8771F5419E500738331 /* 19.png */; };
+		2262A89B1F5419E500738331 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8781F5419E500738331 /* 2.png */; };
+		2262A89C1F5419E500738331 /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8791F5419E500738331 /* 21.png */; };
+		2262A89D1F5419E500738331 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A87A1F5419E500738331 /* 22.png */; };
+		2262A89E1F5419E500738331 /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A87B1F5419E500738331 /* 23.png */; };
+		2262A89F1F5419E500738331 /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A87C1F5419E500738331 /* 24.png */; };
+		2262A8A01F5419E500738331 /* 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A87D1F5419E500738331 /* 25.png */; };
+		2262A8A11F5419E500738331 /* 26.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A87E1F5419E500738331 /* 26.png */; };
+		2262A8A21F5419E500738331 /* 27.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A87F1F5419E500738331 /* 27.png */; };
+		2262A8A31F5419E500738331 /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8801F5419E500738331 /* 28.png */; };
+		2262A8A41F5419E500738331 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8811F5419E500738331 /* 29.png */; };
+		2262A8A51F5419E500738331 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8821F5419E500738331 /* 3.png */; };
+		2262A8A61F5419E500738331 /* 31.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8831F5419E500738331 /* 31.png */; };
+		2262A8A71F5419E500738331 /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8841F5419E500738331 /* 32.png */; };
+		2262A8A81F5419E500738331 /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8851F5419E500738331 /* 33.png */; };
+		2262A8A91F5419E500738331 /* 34.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8861F5419E500738331 /* 34.png */; };
+		2262A8AA1F5419E500738331 /* 35.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8871F5419E500738331 /* 35.png */; };
+		2262A8AB1F5419E500738331 /* 36.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8881F5419E500738331 /* 36.png */; };
+		2262A8AC1F5419E500738331 /* 37.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8891F5419E500738331 /* 37.png */; };
+		2262A8AD1F5419E500738331 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A88A1F5419E500738331 /* 4.png */; };
+		2262A8AE1F5419E500738331 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A88B1F5419E500738331 /* 5.png */; };
+		2262A8AF1F5419E500738331 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A88C1F5419E500738331 /* 6.png */; };
+		2262A8B01F5419E500738331 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A88D1F5419E500738331 /* 7.png */; };
+		2262A8B11F5419E500738331 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A88E1F5419E500738331 /* 8.png */; };
+		2262A8B21F5419E500738331 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A88F1F5419E500738331 /* 9.png */; };
+		2262A8B31F5419E500738331 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8901F5419E500738331 /* board.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2262A84D1F53FAB600738331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2262A82B1F53FAB600738331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2262A8321F53FAB600738331;
+			remoteInfo = MahjongCalculator;
+		};
+		2262A8581F53FAB600738331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2262A82B1F53FAB600738331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2262A8321F53FAB600738331;
+			remoteInfo = MahjongCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2262A8331F53FAB600738331 /* MahjongCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MahjongCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2262A8371F53FAB600738331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2262A8391F53FAB600738331 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2262A83A1F53FAB600738331 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2262A83C1F53FAB600738331 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2262A83D1F53FAB600738331 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2262A8401F53FAB600738331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2262A8421F53FAB600738331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2262A8451F53FAB600738331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2262A8471F53FAB600738331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2262A84C1F53FAB600738331 /* MahjongCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahjongCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2262A8501F53FAB600738331 /* MahjongCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MahjongCalculatorTests.m; sourceTree = "<group>"; };
+		2262A8521F53FAB600738331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2262A8571F53FAB600738331 /* MahjongCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahjongCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2262A85B1F53FAB600738331 /* MahjongCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MahjongCalculatorUITests.m; sourceTree = "<group>"; };
+		2262A85D1F53FAB600738331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2262A8691F53FACD00738331 /* Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
+		2262A86A1F53FACD00738331 /* Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logic.m; sourceTree = "<group>"; };
+		2262A86E1F5419E500738331 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2262A86F1F5419E500738331 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		2262A8701F5419E500738331 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		2262A8711F5419E500738331 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		2262A8721F5419E500738331 /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		2262A8731F5419E500738331 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		2262A8741F5419E500738331 /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		2262A8751F5419E500738331 /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
+		2262A8761F5419E500738331 /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
+		2262A8771F5419E500738331 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		2262A8781F5419E500738331 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2262A8791F5419E500738331 /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		2262A87A1F5419E500738331 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		2262A87B1F5419E500738331 /* 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 23.png; sourceTree = "<group>"; };
+		2262A87C1F5419E500738331 /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24.png; sourceTree = "<group>"; };
+		2262A87D1F5419E500738331 /* 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25.png; sourceTree = "<group>"; };
+		2262A87E1F5419E500738331 /* 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26.png; sourceTree = "<group>"; };
+		2262A87F1F5419E500738331 /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27.png; sourceTree = "<group>"; };
+		2262A8801F5419E500738331 /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 28.png; sourceTree = "<group>"; };
+		2262A8811F5419E500738331 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		2262A8821F5419E500738331 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		2262A8831F5419E500738331 /* 31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 31.png; sourceTree = "<group>"; };
+		2262A8841F5419E500738331 /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
+		2262A8851F5419E500738331 /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		2262A8861F5419E500738331 /* 34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 34.png; sourceTree = "<group>"; };
+		2262A8871F5419E500738331 /* 35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 35.png; sourceTree = "<group>"; };
+		2262A8881F5419E500738331 /* 36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36.png; sourceTree = "<group>"; };
+		2262A8891F5419E500738331 /* 37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 37.png; sourceTree = "<group>"; };
+		2262A88A1F5419E500738331 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		2262A88B1F5419E500738331 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2262A88C1F5419E500738331 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		2262A88D1F5419E500738331 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		2262A88E1F5419E500738331 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		2262A88F1F5419E500738331 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		2262A8901F5419E500738331 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2262A8301F53FAB600738331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2262A8491F53FAB600738331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2262A8541F53FAB600738331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2262A82A1F53FAB600738331 = {
+			isa = PBXGroup;
+			children = (
+				2262A8351F53FAB600738331 /* MahjongCalculator */,
+				2262A84F1F53FAB600738331 /* MahjongCalculatorTests */,
+				2262A85A1F53FAB600738331 /* MahjongCalculatorUITests */,
+				2262A8341F53FAB600738331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2262A8341F53FAB600738331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2262A8331F53FAB600738331 /* MahjongCalculator.app */,
+				2262A84C1F53FAB600738331 /* MahjongCalculatorTests.xctest */,
+				2262A8571F53FAB600738331 /* MahjongCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2262A8351F53FAB600738331 /* MahjongCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				2262A8391F53FAB600738331 /* AppDelegate.h */,
+				2262A83A1F53FAB600738331 /* AppDelegate.m */,
+				2262A83C1F53FAB600738331 /* ViewController.h */,
+				2262A83D1F53FAB600738331 /* ViewController.m */,
+				2262A8691F53FACD00738331 /* Logic.h */,
+				2262A86A1F53FACD00738331 /* Logic.m */,
+				2262A83F1F53FAB600738331 /* Main.storyboard */,
+				2262A8421F53FAB600738331 /* Assets.xcassets */,
+				2262A8441F53FAB600738331 /* LaunchScreen.storyboard */,
+				2262A8471F53FAB600738331 /* Info.plist */,
+				2262A86D1F5419E500738331 /* Resources */,
+				2262A8361F53FAB600738331 /* Supporting Files */,
+			);
+			path = MahjongCalculator;
+			sourceTree = "<group>";
+		};
+		2262A8361F53FAB600738331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2262A8371F53FAB600738331 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2262A84F1F53FAB600738331 /* MahjongCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2262A8501F53FAB600738331 /* MahjongCalculatorTests.m */,
+				2262A8521F53FAB600738331 /* Info.plist */,
+			);
+			path = MahjongCalculatorTests;
+			sourceTree = "<group>";
+		};
+		2262A85A1F53FAB600738331 /* MahjongCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2262A85B1F53FAB600738331 /* MahjongCalculatorUITests.m */,
+				2262A85D1F53FAB600738331 /* Info.plist */,
+			);
+			path = MahjongCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		2262A86D1F5419E500738331 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2262A86E1F5419E500738331 /* 1.png */,
+				2262A86F1F5419E500738331 /* 11.png */,
+				2262A8701F5419E500738331 /* 12.png */,
+				2262A8711F5419E500738331 /* 13.png */,
+				2262A8721F5419E500738331 /* 14.png */,
+				2262A8731F5419E500738331 /* 15.png */,
+				2262A8741F5419E500738331 /* 16.png */,
+				2262A8751F5419E500738331 /* 17.png */,
+				2262A8761F5419E500738331 /* 18.png */,
+				2262A8771F5419E500738331 /* 19.png */,
+				2262A8781F5419E500738331 /* 2.png */,
+				2262A8791F5419E500738331 /* 21.png */,
+				2262A87A1F5419E500738331 /* 22.png */,
+				2262A87B1F5419E500738331 /* 23.png */,
+				2262A87C1F5419E500738331 /* 24.png */,
+				2262A87D1F5419E500738331 /* 25.png */,
+				2262A87E1F5419E500738331 /* 26.png */,
+				2262A87F1F5419E500738331 /* 27.png */,
+				2262A8801F5419E500738331 /* 28.png */,
+				2262A8811F5419E500738331 /* 29.png */,
+				2262A8821F5419E500738331 /* 3.png */,
+				2262A8831F5419E500738331 /* 31.png */,
+				2262A8841F5419E500738331 /* 32.png */,
+				2262A8851F5419E500738331 /* 33.png */,
+				2262A8861F5419E500738331 /* 34.png */,
+				2262A8871F5419E500738331 /* 35.png */,
+				2262A8881F5419E500738331 /* 36.png */,
+				2262A8891F5419E500738331 /* 37.png */,
+				2262A88A1F5419E500738331 /* 4.png */,
+				2262A88B1F5419E500738331 /* 5.png */,
+				2262A88C1F5419E500738331 /* 6.png */,
+				2262A88D1F5419E500738331 /* 7.png */,
+				2262A88E1F5419E500738331 /* 8.png */,
+				2262A88F1F5419E500738331 /* 9.png */,
+				2262A8901F5419E500738331 /* board.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2262A8321F53FAB600738331 /* MahjongCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2262A8601F53FAB600738331 /* Build configuration list for PBXNativeTarget "MahjongCalculator" */;
+			buildPhases = (
+				2262A82F1F53FAB600738331 /* Sources */,
+				2262A8301F53FAB600738331 /* Frameworks */,
+				2262A8311F53FAB600738331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MahjongCalculator;
+			productName = MahjongCalculator;
+			productReference = 2262A8331F53FAB600738331 /* MahjongCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2262A84B1F53FAB600738331 /* MahjongCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2262A8631F53FAB600738331 /* Build configuration list for PBXNativeTarget "MahjongCalculatorTests" */;
+			buildPhases = (
+				2262A8481F53FAB600738331 /* Sources */,
+				2262A8491F53FAB600738331 /* Frameworks */,
+				2262A84A1F53FAB600738331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2262A84E1F53FAB600738331 /* PBXTargetDependency */,
+			);
+			name = MahjongCalculatorTests;
+			productName = MahjongCalculatorTests;
+			productReference = 2262A84C1F53FAB600738331 /* MahjongCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2262A8561F53FAB600738331 /* MahjongCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2262A8661F53FAB600738331 /* Build configuration list for PBXNativeTarget "MahjongCalculatorUITests" */;
+			buildPhases = (
+				2262A8531F53FAB600738331 /* Sources */,
+				2262A8541F53FAB600738331 /* Frameworks */,
+				2262A8551F53FAB600738331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2262A8591F53FAB600738331 /* PBXTargetDependency */,
+			);
+			name = MahjongCalculatorUITests;
+			productName = MahjongCalculatorUITests;
+			productReference = 2262A8571F53FAB600738331 /* MahjongCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2262A82B1F53FAB600738331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ricky Lee";
+				TargetAttributes = {
+					2262A8321F53FAB600738331 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YHHYVH9G93;
+						ProvisioningStyle = Automatic;
+					};
+					2262A84B1F53FAB600738331 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YHHYVH9G93;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2262A8321F53FAB600738331;
+					};
+					2262A8561F53FAB600738331 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YHHYVH9G93;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2262A8321F53FAB600738331;
+					};
+				};
+			};
+			buildConfigurationList = 2262A82E1F53FAB600738331 /* Build configuration list for PBXProject "MahjongCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2262A82A1F53FAB600738331;
+			productRefGroup = 2262A8341F53FAB600738331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2262A8321F53FAB600738331 /* MahjongCalculator */,
+				2262A84B1F53FAB600738331 /* MahjongCalculatorTests */,
+				2262A8561F53FAB600738331 /* MahjongCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2262A8311F53FAB600738331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2262A8AE1F5419E500738331 /* 5.png in Resources */,
+				2262A8A71F5419E500738331 /* 32.png in Resources */,
+				2262A8A81F5419E500738331 /* 33.png in Resources */,
+				2262A8A61F5419E500738331 /* 31.png in Resources */,
+				2262A89A1F5419E500738331 /* 19.png in Resources */,
+				2262A8B21F5419E500738331 /* 9.png in Resources */,
+				2262A8971F5419E500738331 /* 16.png in Resources */,
+				2262A8AF1F5419E500738331 /* 6.png in Resources */,
+				2262A8A41F5419E500738331 /* 29.png in Resources */,
+				2262A8AA1F5419E500738331 /* 35.png in Resources */,
+				2262A8A51F5419E500738331 /* 3.png in Resources */,
+				2262A89E1F5419E500738331 /* 23.png in Resources */,
+				2262A8AC1F5419E500738331 /* 37.png in Resources */,
+				2262A8A91F5419E500738331 /* 34.png in Resources */,
+				2262A8AB1F5419E500738331 /* 36.png in Resources */,
+				2262A8AD1F5419E500738331 /* 4.png in Resources */,
+				2262A89B1F5419E500738331 /* 2.png in Resources */,
+				2262A8961F5419E500738331 /* 15.png in Resources */,
+				2262A8B01F5419E500738331 /* 7.png in Resources */,
+				2262A8A11F5419E500738331 /* 26.png in Resources */,
+				2262A89F1F5419E500738331 /* 24.png in Resources */,
+				2262A8931F5419E500738331 /* 12.png in Resources */,
+				2262A89C1F5419E500738331 /* 21.png in Resources */,
+				2262A8921F5419E500738331 /* 11.png in Resources */,
+				2262A8981F5419E500738331 /* 17.png in Resources */,
+				2262A8B11F5419E500738331 /* 8.png in Resources */,
+				2262A8A31F5419E500738331 /* 28.png in Resources */,
+				2262A8461F53FAB600738331 /* LaunchScreen.storyboard in Resources */,
+				2262A8991F5419E500738331 /* 18.png in Resources */,
+				2262A8911F5419E500738331 /* 1.png in Resources */,
+				2262A8A21F5419E500738331 /* 27.png in Resources */,
+				2262A8431F53FAB600738331 /* Assets.xcassets in Resources */,
+				2262A8B31F5419E500738331 /* board.png in Resources */,
+				2262A8411F53FAB600738331 /* Main.storyboard in Resources */,
+				2262A8A01F5419E500738331 /* 25.png in Resources */,
+				2262A89D1F5419E500738331 /* 22.png in Resources */,
+				2262A8951F5419E500738331 /* 14.png in Resources */,
+				2262A8941F5419E500738331 /* 13.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2262A84A1F53FAB600738331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2262A8551F53FAB600738331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2262A82F1F53FAB600738331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2262A86B1F53FACD00738331 /* Logic.m in Sources */,
+				2262A83E1F53FAB600738331 /* ViewController.m in Sources */,
+				2262A83B1F53FAB600738331 /* AppDelegate.m in Sources */,
+				2262A8381F53FAB600738331 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2262A8481F53FAB600738331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2262A8511F53FAB600738331 /* MahjongCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2262A8531F53FAB600738331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2262A85C1F53FAB600738331 /* MahjongCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2262A84E1F53FAB600738331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2262A8321F53FAB600738331 /* MahjongCalculator */;
+			targetProxy = 2262A84D1F53FAB600738331 /* PBXContainerItemProxy */;
+		};
+		2262A8591F53FAB600738331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2262A8321F53FAB600738331 /* MahjongCalculator */;
+			targetProxy = 2262A8581F53FAB600738331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2262A83F1F53FAB600738331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2262A8401F53FAB600738331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2262A8441F53FAB600738331 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2262A8451F53FAB600738331 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2262A85E1F53FAB600738331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2262A85F1F53FAB600738331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2262A8611F53FAB600738331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YHHYVH9G93;
+				INFOPLIST_FILE = MahjongCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ricky-Lee.MahjongCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2262A8621F53FAB600738331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YHHYVH9G93;
+				INFOPLIST_FILE = MahjongCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ricky-Lee.MahjongCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2262A8641F53FAB600738331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YHHYVH9G93;
+				INFOPLIST_FILE = MahjongCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ricky-Lee.MahjongCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MahjongCalculator.app/MahjongCalculator";
+			};
+			name = Debug;
+		};
+		2262A8651F53FAB600738331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YHHYVH9G93;
+				INFOPLIST_FILE = MahjongCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ricky-Lee.MahjongCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MahjongCalculator.app/MahjongCalculator";
+			};
+			name = Release;
+		};
+		2262A8671F53FAB600738331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YHHYVH9G93;
+				INFOPLIST_FILE = MahjongCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ricky-Lee.MahjongCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MahjongCalculator;
+			};
+			name = Debug;
+		};
+		2262A8681F53FAB600738331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YHHYVH9G93;
+				INFOPLIST_FILE = MahjongCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ricky-Lee.MahjongCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MahjongCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2262A82E1F53FAB600738331 /* Build configuration list for PBXProject "MahjongCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2262A85E1F53FAB600738331 /* Debug */,
+				2262A85F1F53FAB600738331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2262A8601F53FAB600738331 /* Build configuration list for PBXNativeTarget "MahjongCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2262A8611F53FAB600738331 /* Debug */,
+				2262A8621F53FAB600738331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2262A8631F53FAB600738331 /* Build configuration list for PBXNativeTarget "MahjongCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2262A8641F53FAB600738331 /* Debug */,
+				2262A8651F53FAB600738331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2262A8661F53FAB600738331 /* Build configuration list for PBXNativeTarget "MahjongCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2262A8671F53FAB600738331 /* Debug */,
+				2262A8681F53FAB600738331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2262A82B1F53FAB600738331 /* Project object */;
+}
