@@ -15,7 +15,6 @@
 		2262A8461F53FAB600738331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8441F53FAB600738331 /* LaunchScreen.storyboard */; };
 		2262A8511F53FAB600738331 /* MahjongCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A8501F53FAB600738331 /* MahjongCalculatorTests.m */; };
 		2262A85C1F53FAB600738331 /* MahjongCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A85B1F53FAB600738331 /* MahjongCalculatorUITests.m */; };
-		2262A86B1F53FACD00738331 /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A86A1F53FACD00738331 /* Logic.m */; };
 		2262A8911F5419E500738331 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A86E1F5419E500738331 /* 1.png */; };
 		2262A8921F5419E500738331 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A86F1F5419E500738331 /* 11.png */; };
 		2262A8931F5419E500738331 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8701F5419E500738331 /* 12.png */; };
@@ -51,6 +50,9 @@
 		2262A8B11F5419E500738331 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A88E1F5419E500738331 /* 8.png */; };
 		2262A8B21F5419E500738331 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A88F1F5419E500738331 /* 9.png */; };
 		2262A8B31F5419E500738331 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262A8901F5419E500738331 /* board.png */; };
+		22DD0FB81F550C4F0068BC63 /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DD0FB51F550C4F0068BC63 /* Logic.m */; };
+		22DD0FB91F550C4F0068BC63 /* MahjongButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DD0FB71F550C4F0068BC63 /* MahjongButton.m */; };
+		22DD0FBC1F550F710068BC63 /* MahjongImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DD0FBB1F550F710068BC63 /* MahjongImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,8 +89,6 @@
 		2262A8571F53FAB600738331 /* MahjongCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahjongCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2262A85B1F53FAB600738331 /* MahjongCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MahjongCalculatorUITests.m; sourceTree = "<group>"; };
 		2262A85D1F53FAB600738331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2262A8691F53FACD00738331 /* Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
-		2262A86A1F53FACD00738331 /* Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logic.m; sourceTree = "<group>"; };
 		2262A86E1F5419E500738331 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		2262A86F1F5419E500738331 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 		2262A8701F5419E500738331 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
@@ -124,6 +124,13 @@
 		2262A88E1F5419E500738331 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		2262A88F1F5419E500738331 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		2262A8901F5419E500738331 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		22DD0FB41F550C4F0068BC63 /* Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
+		22DD0FB51F550C4F0068BC63 /* Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logic.m; sourceTree = "<group>"; };
+		22DD0FB61F550C4F0068BC63 /* MahjongButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MahjongButton.h; sourceTree = "<group>"; };
+		22DD0FB71F550C4F0068BC63 /* MahjongButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MahjongButton.m; sourceTree = "<group>"; };
+		22DD0FBA1F550F710068BC63 /* MahjongImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MahjongImageView.h; sourceTree = "<group>"; };
+		22DD0FBB1F550F710068BC63 /* MahjongImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MahjongImageView.m; sourceTree = "<group>"; };
+		22DD0FBD1F55103D0068BC63 /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,13 +185,12 @@
 				2262A83A1F53FAB600738331 /* AppDelegate.m */,
 				2262A83C1F53FAB600738331 /* ViewController.h */,
 				2262A83D1F53FAB600738331 /* ViewController.m */,
-				2262A8691F53FACD00738331 /* Logic.h */,
-				2262A86A1F53FACD00738331 /* Logic.m */,
+				22DD0FB31F550C4F0068BC63 /* Classes */,
+				2262A86D1F5419E500738331 /* Resources */,
 				2262A83F1F53FAB600738331 /* Main.storyboard */,
 				2262A8421F53FAB600738331 /* Assets.xcassets */,
 				2262A8441F53FAB600738331 /* LaunchScreen.storyboard */,
 				2262A8471F53FAB600738331 /* Info.plist */,
-				2262A86D1F5419E500738331 /* Resources */,
 				2262A8361F53FAB600738331 /* Supporting Files */,
 			);
 			path = MahjongCalculator;
@@ -256,6 +262,20 @@
 				2262A8901F5419E500738331 /* board.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		22DD0FB31F550C4F0068BC63 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22DD0FB41F550C4F0068BC63 /* Logic.h */,
+				22DD0FB51F550C4F0068BC63 /* Logic.m */,
+				22DD0FB61F550C4F0068BC63 /* MahjongButton.h */,
+				22DD0FB71F550C4F0068BC63 /* MahjongButton.m */,
+				22DD0FBA1F550F710068BC63 /* MahjongImageView.h */,
+				22DD0FBB1F550F710068BC63 /* MahjongImageView.m */,
+				22DD0FBD1F55103D0068BC63 /* define.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,9 +449,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2262A86B1F53FACD00738331 /* Logic.m in Sources */,
+				22DD0FB81F550C4F0068BC63 /* Logic.m in Sources */,
+				22DD0FBC1F550F710068BC63 /* MahjongImageView.m in Sources */,
 				2262A83E1F53FAB600738331 /* ViewController.m in Sources */,
 				2262A83B1F53FAB600738331 /* AppDelegate.m in Sources */,
+				22DD0FB91F550C4F0068BC63 /* MahjongButton.m in Sources */,
 				2262A8381F53FAB600738331 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
