@@ -17,6 +17,8 @@ typedef unsigned char BYTE;
 
 + (Logic*)shared;
 
+- (int)cardsCount:(BYTE[CARDS_MAX_COUNT])cards;
+
 - (void)sort:(BYTE[CARDS_MAX_COUNT])cards;
 - (NSArray*)tingArray:(BYTE[CARDS_MAX_COUNT])cards;
 

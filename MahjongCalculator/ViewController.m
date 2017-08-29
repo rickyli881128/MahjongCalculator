@@ -76,6 +76,15 @@
             button.tag = 0xFF+col;
             [button addTarget:self action:@selector(testAction:) forControlEvents:UIControlEventTouchUpInside];
             [self.view addSubview:button];
+            
+            if (([[Logic shared] cardsCount:_viewCards] - 2) % 3 == 0) {
+                BYTE tmp_judegCards[CARDS_MAX_COUNT];
+                memcpy(tmp_judegCards, _viewCards, sizeof(tmp_judegCards));
+                tmp_judegCards[col] = 0xFF;
+                [[Logic shared] sort:tmp_judegCards];
+                NSArray *tingCards = [[Logic shared] tingArray:tmp_judegCards];
+                button.tingCount = (int)tingCards.count;
+            }
         }
     }
     

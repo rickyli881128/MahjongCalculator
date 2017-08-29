@@ -10,7 +10,11 @@
 #import "Logic.h"
 
 @interface MahjongButton : UIButton
+{
+    UILabel *_label;
+}
 
 @property(nonatomic) BYTE cardData;
+@property(nonatomic) int tingCount;
 
 @end
